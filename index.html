@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mercado em Dia | Demonstração</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<div class="shell">
+<aside>
+<div class="brand"><span>m.</span><div>Mercado em Dia<small>GESTÃO DE MERCADO</small></div></div>
+<nav aria-label="Menu principal">
+<button data-page="caixa" class="active"><span aria-hidden="true">▣</span> Frente de caixa</button>
+<button data-page="painel"><span aria-hidden="true">◫</span> Visão geral</button>
+<button data-page="produtos"><span aria-hidden="true">◇</span> Produtos e estoque</button>
+<button data-page="vendas"><span aria-hidden="true">≡</span> Histórico de vendas</button>
+</nav>
+<div class="demo"><i></i> Ambiente de demonstração</div>
+</aside>
+<main>
+<header class="top"><span id="breadcrumb">Operação / Frente de caixa</span><span id="today"></span></header>
+<section id="content"></section>
+</main>
+</div>
+<dialog id="modal"></dialog>
+<div id="notice" role="status"></div>
+</body>
+</html>
